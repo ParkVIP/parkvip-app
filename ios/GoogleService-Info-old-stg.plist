@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>811930038220-f5qj5rqelntgoigsb1n72463gfb8jjnp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.811930038220-f5qj5rqelntgoigsb1n72463gfb8jjnp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>811930038220-2nr75lk27t1tg3n8hb1ef1772mb9lhg8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwfq_m-f5TBSCg_8uw-1qjf42OnC4bkdY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>811930038220</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.parkvip.parkvip.staging</string>
+	<key>PROJECT_ID</key>
+	<string>parkvip-f9bab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parkvip-f9bab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:811930038220:ios:473bbc74bcb6b117457769</string>
+	<key>DATABASE_URL</key>
+	<string>https://parkvip-f9bab.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "277388329383",
+    "project_id": "parkvip-e7775",
+    "storage_bucket": "parkvip-e7775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277388329383:android:31fbd96956f579c2517682",
+        "android_client_info": {
+          "package_name": "app.parkvip.parkvip.develop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277388329383-l2i7l8ei1eh4sspba1mocurqpaa4k2lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.parkvip.parkvip.develop",
+            "certificate_hash": "e809e160bf530f56385e474d632a2793df027554"
+          }
+        },
+        {
+          "client_id": "277388329383-tpo6ddeudhlqo8bpjm24qpim8vockg8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhL_COCOTL4C5RgBH-d80GhBvamw9yDUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277388329383-tpo6ddeudhlqo8bpjm24qpim8vockg8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

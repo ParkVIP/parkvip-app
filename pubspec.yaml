@@ -1,0 +1,112 @@
+name: ParkVip
+description: For parking.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 5.0.5+81
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+#  upgrader: ^10.3.0
+  new_version_plus : ^0.0.11
+  buffer: ^1.1.1
+#  css_colors: ^1.0.0
+  datetime_picker_formfield_new: ^2.1.0
+  http: ^1.1.0
+  intl: ^0.19.0
+  flutter_html: ^3.0.0-alpha.3
+  fluttertoast: ^8.0.8
+  shared_preferences: ^2.2.1
+  image_picker: ^1.0.7
+#  path_provider: ^2.0.5
+  image: ^4.1.7
+  typed_data: ^1.1.6
+  flutter_timezone: ^2.0.1
+#  cupertino_icons: ^1.0.2
+#  flutter_launcher_icons: ^0.13.1
+  #maps_launcher: ^2.2.0
+  url_launcher: ^6.2.2
+  timezone: ^0.9.0
+  flutter_stripe: ^11.2.0
+  flutter_stripe_web : ^6.3.0
+  firebase_core: ^3.2.0
+  firebase_messaging: ^15.0.3
+  ndialog: ^4.1.0
+  package_info_plus: ^4.2.0
+  pay: ^2.0.0
+  progress_dialog_null_safe: ^3.0.0
+  #flutter_blue_plus: ^1.2.0
+#  firebase_core_platform_interface: ^5.0.0
+  flutter_switch: ^0.3.0-nullsafety.0
+  connectivity_plus: ^6.0.3
+  cached_network_image: ^3.2.0
+  flutter_svg: ^2.0.7
+  get: ^4.6.5
+#  flag: ^7.0.0
+  hex: ^0.2.0
+#  crc: ^0.0.2
+  video_player: ^2.1.15
+  crclib: ^3.0.0
+  geolocator: ^12.0.0
+#  flutter_polyline_points: ^2.0.0
+  dropdown_search: ^5.0.6
+  twilio_chat_conversation: ^1.0.4
+  flutter_bloc: ^8.1.2
+  bubble: ^1.2.1
+  equatable: ^2.0.5
+  provider: ^6.0.5
+  interactable_svg: ^0.0.7
+  google_sign_in: ^6.1.6
+  firebase_auth: ^5.1.2
+#  flutter_web_frame : ^1.0.0
+  sign_in_with_apple: ^6.1.1
+  file_picker: ^8.0.6
+  flutter_widget_from_html_core : any
+  #stripe_payment: ^1.1.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/google_pay_payment_profile.json
+    - images/
+    - assets/images/
+    - assets/video/video.mp4
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
+
+flutter_icons:
+  android: true
+  ios: true
+  #image_path_ios: "assets/1024.png"
+  image_path_ios: "assets/parking-logo-new-ios.png"
+  image_path_android: "assets/parking-logo-new.png"

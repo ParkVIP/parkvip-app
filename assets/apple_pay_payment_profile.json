@@ -1,0 +1,24 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.devclients.parkvip",
+    "displayName": "Parkvip Dev",
+    "merchantCapabilities": ["3DS"],
+    "supportedNetworks": [
+      "amex",
+      "visa",
+      "discover",
+      "mastercard"
+    ],
+    "countryCode": "US",
+    "currencyCode": "USD",
+    "shippingMethods": [
+      {
+        "amount": "0.00",
+        "detail": "",
+        "identifier": "",
+        "label": ""
+      }
+    ]
+  }
+}
